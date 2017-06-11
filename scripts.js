@@ -6,10 +6,10 @@ var dinosaur = 'triceratops';
 var dinosaurUpperCased = dinosaur.toUpperCase();
 
 //tekst z zamianą słów
-var text = text.replace('Velociraptor', dinosaurUpperCased);
+text = text.replace('Velociraptor', dinosaurUpperCased);
 
-console.log(text.length);
-var textAfter = text.substr(0, 72);
+//podział tekstu
+var textAfter = text.substr(0, text.length/2);
 
 //tekst końcowy
 console.log(textAfter);
